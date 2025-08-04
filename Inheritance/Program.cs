@@ -25,15 +25,40 @@ namespace Inheritance
 
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
-             *  
+             *
+             
              * Creatively display the class member values 
              */
+            var eagle = new Bird();
+            eagle.AnimalName = "Eagle";
+            eagle.WingSpan = 4;
+            eagle.BeakSize = 5;
+            eagle.CanFly = true;
+            eagle.FootType = "talons";
+            eagle.AnimalSound = "Kaahh!";
+            eagle.Habitat = "nest on a tree";
+            eagle.FoodType = "rodents";
+            eagle.AnimalIntro();
+            eagle.BirdInfo();
 
-            /*Create an object of your Reptile class
-             *  give values to your members using the object of your Reptile class
-             *  
-             * Creatively display the class member values 
-             */
+            Console.WriteLine("--------------");
+
+/*Create an object of your Reptile class
+ *  give values to your members using the object of your Reptile class
+ *
+ * Creatively display the class member values
+ */
+            var gator = new Reptile();
+            gator.AnimalName = "Alligator";
+            gator.Habitat = "swamp";
+            gator.FoodType = "fish and small animals";
+            gator.AnimalSound = "growl!";
+            gator.ScaleColor = "green";
+            gator.CanSwim = true;
+            gator.TailLength = 4;
+            gator.IsDragon = true;
+            gator.AnimalIntro();
+            gator.ReptileInfo();
         }
     }
 }
